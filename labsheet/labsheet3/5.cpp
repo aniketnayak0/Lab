@@ -6,12 +6,13 @@
 using namespace std;
 class twentyfour
 {
-    public:
     int h, m, s;
+    public:
     void display()
     {
         cout << h << ":" << m << ":" << s << endl;
-    }      
+    }
+    friend class twelve;     
 };
 class twelve{
     int h, m, s;
